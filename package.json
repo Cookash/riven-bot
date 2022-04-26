@@ -1,0 +1,19 @@
+{
+  "name": "riven-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot with a lot of utilites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Cookash/riven-bot.git"
+  },
+  "author": "Lukasz Goletz <goletzlukasz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cookash/riven-bot/issues"
+  },
+  "homepage": "https://github.com/Cookash/riven-bot#readme"
+}
