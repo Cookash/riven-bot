@@ -4,6 +4,7 @@
   "description": "Discord Bot with a lot of utilites.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
     "url": "https://github.com/Cookash/riven-bot/issues"
   },
   "homepage": "https://github.com/Cookash/riven-bot#readme",
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.18.0"
+  }
 }
