@@ -16,7 +16,9 @@ client.on('interactionCreate', async interaction => {
 		await interaction.reply('Pong!');
 	} else if (commandName === 'beep') {
 		await interaction.reply('Boop!');
-	}
+	} else if (commandName === 'test') {
+		await interaction.reply('Test!');
+	} 
 });
 
 client.login(token);
