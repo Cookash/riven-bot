@@ -1,5 +1,5 @@
-const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
+import { Client, Intents } from 'discord.js';
+import { token } from './config.json';
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
